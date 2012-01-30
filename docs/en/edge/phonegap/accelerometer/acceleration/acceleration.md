@@ -63,7 +63,7 @@ Full Example
 
         // onSuccess: Get a snapshot of the current acceleration
         //
-        function onSuccess() {
+        function onSuccess(acceleration) {
             alert('Acceleration X: ' + acceleration.x + '\n' +
                   'Acceleration Y: ' + acceleration.y + '\n' +
                   'Acceleration Z: ' + acceleration.z + '\n' +
